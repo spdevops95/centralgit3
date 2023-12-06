@@ -2,7 +2,7 @@ node {
     stage('Build') {
         echo 'Building the project...'
         // Add your build commands here
-    }
+    }      git build my code 
 
     stage('Test') {
         echo 'Running tests...'
@@ -14,4 +14,4 @@ node {
         // Add your deployment commands here
     }
 }
-
+    
