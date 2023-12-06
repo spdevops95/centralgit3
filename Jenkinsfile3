@@ -1,0 +1,6 @@
+// Hello World Groovy Script
+
+def name = "World"
+
+println "Hello, $name!"
+
