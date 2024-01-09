@@ -4,22 +4,20 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building the project...'
-                // Add your build commands here
+                echo                 
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Running tests...'
-                // Add your test commands here
+                echo 
             }
         }
 
         stage('Deploy') {
             steps {
-                echo 'Deploying the project...'
-                // Add your deployment commands here
+                echo 
+    
             }
         }
     }
